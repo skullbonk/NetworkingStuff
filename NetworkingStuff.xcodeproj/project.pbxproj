@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F05AB5A21C43D8C00B8738F /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05AB5921C43D8C00B8738F /* InternetDetailViewController.swift */; };
+		0F05AB5C21C4456C00B8738F /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05AB5B21C4456C00B8738F /* InternetMasterViewController.swift */; };
 		0F9763DC21C1AC29005B4CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9763DB21C1AC29005B4CB9 /* AppDelegate.swift */; };
 		0F9763DE21C1AC29005B4CB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9763DD21C1AC29005B4CB9 /* ViewController.swift */; };
 		0F9763E121C1AC29005B4CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9763DF21C1AC29005B4CB9 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F05AB5921C43D8C00B8738F /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		0F05AB5B21C4456C00B8738F /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		0F9763D821C1AC28005B4CB9 /* NetworkingStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F9763DB21C1AC29005B4CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F9763DD21C1AC29005B4CB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F05AB5421C437AE00B8738F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F9763DB21C1AC29005B4CB9 /* AppDelegate.swift */,
+				0F9763E221C1AC35005B4CB9 /* Assets.xcassets */,
+				0F9763E721C1AC35005B4CB9 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0F05AB5521C4383400B8738F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F9763DF21C1AC29005B4CB9 /* Main.storyboard */,
+				0F9763E421C1AC35005B4CB9 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F05AB5621C43D4A00B8738F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F9763DD21C1AC29005B4CB9 /* ViewController.swift */,
+				0F05AB5921C43D8C00B8738F /* InternetDetailViewController.swift */,
+				0F05AB5B21C4456C00B8738F /* InternetMasterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		0F9763CF21C1AC28005B4CB9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +87,9 @@
 		0F9763DA21C1AC28005B4CB9 /* NetworkingStuff */ = {
 			isa = PBXGroup;
 			children = (
-				0F9763DB21C1AC29005B4CB9 /* AppDelegate.swift */,
-				0F9763DD21C1AC29005B4CB9 /* ViewController.swift */,
-				0F9763DF21C1AC29005B4CB9 /* Main.storyboard */,
-				0F9763E221C1AC35005B4CB9 /* Assets.xcassets */,
-				0F9763E421C1AC35005B4CB9 /* LaunchScreen.storyboard */,
-				0F9763E721C1AC35005B4CB9 /* Info.plist */,
+				0F05AB5421C437AE00B8738F /* Resources */,
+				0F05AB5621C43D4A00B8738F /* Controller */,
+				0F05AB5521C4383400B8738F /* View */,
 			);
 			path = NetworkingStuff;
 			sourceTree = "<group>";
@@ -136,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F9763DE21C1AC29005B4CB9 /* ViewController.swift in Sources */,
+				0F05AB5C21C4456C00B8738F /* InternetMasterViewController.swift in Sources */,
+				0F05AB5A21C43D8C00B8738F /* InternetDetailViewController.swift in Sources */,
 				0F9763DC21C1AC29005B4CB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
